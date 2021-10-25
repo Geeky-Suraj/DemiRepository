@@ -5,4 +5,5 @@ class TestArithmetic (unittest.TestCase):
         num = 5
         result =num**2
         self.assertEqual(result, 25)
-unittest.main() 
+if __name__ == '__main__':
+    unittest.main()
