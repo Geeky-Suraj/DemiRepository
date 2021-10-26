@@ -4,7 +4,7 @@ pipeline {
 		stage("Compile") {
 			steps {
 				//pip install requirements.txt
-				echo "Python compilation done"
+				echo "Python compilation successfully done"
 			}
 		}
 		stage("Unit test") {
